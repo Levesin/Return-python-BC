@@ -13,6 +13,6 @@ format_two = '! {0} {1} ?'.format(mod_offer.upper()[::-1], mod_offer2.capitalize
 print(format_two, file=source_file, end=" <<<>>> \n")
 
 format_three = f'! {mod_offer.upper()[::-1]} {mod_offer2.capitalize()[::-1]} ?'
-print(format_three, file=source_file, end=" <<<>>> \n")
+print(format_three, file=sorce_file, end=" <<<>>> \n")
 
 source_file.close()
